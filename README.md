@@ -19,6 +19,9 @@ indent [-n int] [file]
 $ go get github.com/oohira/indent
 ```
 
+NOTE: Some operating system already has the other `indent` program that formats C source code.
+You might have to add `export PATH=$GOPATH/bin:$PATH` to enable the newly installed one.
+
 ## Example
 
 Indent standard input.
